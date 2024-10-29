@@ -1,0 +1,14 @@
+Pseudocode-Anweisungen
+
+1- Den Text in Zeilen aufteilen
+
+2- Für jede Zeile im Zeilen-Array { Wenn die Zeile leer ist, mit der nächsten Iteration der Schleife fortfahren
+
+2.1- Die Zeile mit ":" in zwei Teile aufteilen: Schlüssel und Wert
+
+2.2- Alle führenden oder nachfolgenden Leerzeichen von Schlüssel und Wert entfernen
+
+2.3- Wenn der Wert leer ist. Wir haben es mit einem verschachtelten Objekt zu tun. Ein neues leeres Objekt mit dem Namen des Schlüssels im Hauptobjekt erstellen
+
+2.4- Während die nächste Zeile um vier Leerzeichen eingerückt ist. Die nächste Zeile mit ":" in zwei Teile aufteilen: nestedKey und nestedValue Alle Leerzeichen von nestedKey und nestedValue entfernen nestedKey und nestedValue zum verschachtelten Objekt hinzufügen Zur nächsten Zeile wechseln  
+2.5- sonst: Schlüssel und Wert zum Hauptobjekt hinzufügen 
