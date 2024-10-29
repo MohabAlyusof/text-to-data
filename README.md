@@ -16,6 +16,7 @@ current price: 500
 
 
 Pseudocode Instractions
+turns the given txt into an object
 
 1- Split the text into lines
 
